@@ -2,6 +2,9 @@
 ## Installation
 The code is modified from repo https://github.com/DylanWusee/pointconv_pytorch
 
+## tensorflow version
+https://github.com/kenakai16/gpointconv_tf
+
 ## Usage
 ### ModelNet40 Classification
 
