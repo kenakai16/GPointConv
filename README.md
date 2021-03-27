@@ -19,7 +19,7 @@ To evaluate the model,
 ```
 python eval_cls_gconv.py --checkpoint ./checkpoint/check_point.pth --normal
 ```
-
+We are updating the latest weight...
 ## License
 This repository is released under MIT License (see LICENSE file for details).
 
