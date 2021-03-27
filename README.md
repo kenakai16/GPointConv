@@ -12,7 +12,7 @@ To train the model,
 python train_cls_gconv.py --model gpointconv_modelnet40 --normal
 ```
 
-To evaluate the model (CPU),
+To evaluate the model,
 ```
 python eval_cls_gconv.py --checkpoint ./checkpoint/check_point.pth --normal
 ```
