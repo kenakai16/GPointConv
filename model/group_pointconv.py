@@ -50,9 +50,11 @@ if __name__ == '__main__':
     import os
     import torch
     os.environ["CUDA_VISIBLE_DEVICES"] = '0'
-    input = torch.randn((8,3,2048))
+    input = torch.randn((8,6,2048))
     label = torch.randn(8,16)
+    xyz = input[:,:3,2048]
+    feat = input[:3,:,2048]
     model = GroupPointConvDensityClsSsg(num_classes=40)
-    output= model(input)
+    output= model(xyz,feat)
     print(output.size())
 
